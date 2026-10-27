@@ -28,7 +28,7 @@ python -m pip install -r requirements.txt
 python predict.py /path/to/subject HNUxxxxx --output results.csv
 ```
 
-先从该版本发布附件下载 `rf_decoder_best.joblib`，放到 `models/`。
+先从[版本发布附件](https://github.com/NIU921/eating-detection-rf/releases/tag/v1.0.0-rf-decoder-best)下载 `rf_decoder_best.joblib`，放到 `models/`。
 运行 `python verify_model.py` 核对 SHA256 和模型设置。
 模型为已保存的原森林与更新后解码参数，未重新训练。仅加载来源可信的 joblib 文件。
 输入为个人目录下的传感器 `collect*.txt`；多个人目录可以省略第二个位置参数。
