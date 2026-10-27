@@ -1,0 +1,25 @@
+{
+  "smooth_s": [
+    120,
+    180,
+    240
+  ],
+  "stop_persistence": [
+    12,
+    24,
+    36
+  ],
+  "merge_gap_s": [
+    30,
+    60,
+    120
+  ],
+  "threshold": [
+    0.35,
+    0.45,
+    0.55,
+    0.65
+  ],
+  "start_persistence": 3,
+  "min_event_s": 60
+}

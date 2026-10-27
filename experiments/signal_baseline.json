@@ -1,0 +1,14 @@
+{
+  "fs": 25,
+  "window_s": 10,
+  "stride_s": 5,
+  "boundary_s": 60,
+  "positive_overlap": 0.8,
+  "min_observed": 0.95,
+  "max_interpolation_ms": 200,
+  "lowpass_hz": 8.0,
+  "gravity_hz": 0.3,
+  "trim_s": 3,
+  "anchor": "start",
+  "seed": 20261021
+}

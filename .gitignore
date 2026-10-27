@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.python_packages/
+reports/*.log
+models/*.joblib
+release-assets/
+IMU+PPG/
+*.csv
+!reports/*.csv
+runs/local_baseline/
+runs/rf_decoder_tuning/
+用餐信息.csv
+用户信息.csv
+三类筛选结果/
+惯用手算法设计/五折划分/

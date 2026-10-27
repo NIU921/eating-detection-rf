@@ -1,0 +1,23 @@
+{
+  "sha256": "d2b69d087607120ec655f4672745c7b3df708d56461fe1286094a99be2e200da",
+  "feature_count": 153,
+  "threshold": 0.45,
+  "decoder": {
+    "smooth_windows": 48,
+    "stride_s": 5,
+    "start_persistence": 3,
+    "stop_persistence": 36,
+    "merge_gap_s": 30.0,
+    "min_event_s": 60
+  },
+  "n_estimators": 300,
+  "status": "passed",
+  "compression_predictions_identical": true,
+  "elapsed_s": 20.61,
+  "model_bytes": 147330921,
+  "unit_tests": {
+    "passed": 15,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -v"
+  }
+}

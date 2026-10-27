@@ -1,0 +1,33 @@
+{
+  "experiment_id": "smooth120-180-240_stop12-24-36_gap30-60-120_thr0p35-0p45-0p55-0p65_start3_min60_5af8cb3bdb",
+  "task": "dominant_hand_eating",
+  "event_iou_rule": ">0.25",
+  "metrics": {
+    "tp": 65,
+    "fp": 51,
+    "fn": 46,
+    "precision": 0.5603448275862069,
+    "recall": 0.5855855855855856,
+    "f1": 0.5726872246696035,
+    "start_mae_s": 226.39381538461535,
+    "end_mae_s": 180.9811846153846
+  },
+  "decoder": {
+    "threshold": 0.45,
+    "smooth_s": 240,
+    "stop_persistence": 36,
+    "merge_gap_s": 30.0,
+    "start_persistence": 3,
+    "min_event_s": 60
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "source_model_sha256": "11e117fd954f0b4d67cbc6549885ac0819f3b95af60d83cd2dff9c3fd0f0c96b",
+  "release_model_sha256": "d2b69d087607120ec655f4672745c7b3df708d56461fe1286094a99be2e200da",
+  "release_model_bytes": 147330921
+}

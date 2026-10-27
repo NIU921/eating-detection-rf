@@ -1,0 +1,87 @@
+{
+  "approved_by": "user",
+  "approved_date": "2026-10-21",
+  "reason": "用户明确要求排除失败文件；以下16个来源在解压后仍为未解码二进制，不删除原文件",
+  "sources": [
+    {
+      "externalid": "HNU21008",
+      "zip": "sensorData-1784736554839-1367554471e04f44b9ff0cced0e3a907.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21012",
+      "zip": "sensorData-1784864012692-7abd340693a34144afdeeefd67b6ea74.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21014",
+      "zip": "sensorData-1784734724568-e2a4788b0d5b4b33b041a393dc047542.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21018",
+      "zip": "sensorData-1784894893329-2a8b66bdc42b4b0081825d1b15b8dae0.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21019",
+      "zip": "sensorData-1784964800947-f26518c7e2404ce683ef59951f0a2093.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21027",
+      "zip": "sensorData-1784940395699-3609b247c95b48ee8ad0ea67ff4caa84.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21033",
+      "zip": "sensorData-1785404524213-7901f0d601b444b5a3a5466cf255ba0f.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21034",
+      "zip": "sensorData-1784902164601-0cec3fb5c19945fdbc18e1b33145fae7.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21034",
+      "zip": "sensorData-1785045326573-993218cff9194bf083a9ba7e49780a62.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21035",
+      "zip": "sensorData-1784996399387-3e1246d4be5848bba284a5ba735238ab.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21035",
+      "zip": "sensorData-1785079358000-23d230aac2cd41a5928d9ceef0174bfd.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21038",
+      "zip": "sensorData-1785052953538-db021bca1cb14c05b64d33184fdac7d4.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21038",
+      "zip": "sensorData-1785054953067-56139c7570e740df8a22944a39fbb6a7.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21038",
+      "zip": "sensorData-1785054954104-4a251f4228cc494f9b0745cb7697382f.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21040",
+      "zip": "sensorData-1785238881211-565c5fbe0b004c3e9c456b570be4bc2b.zip",
+      "reason": "unsupported_binary_sensor_format"
+    },
+    {
+      "externalid": "HNU21040",
+      "zip": "sensorData-1785244178978-f133682959914d0181fab389bf3ac0a3.zip",
+      "reason": "unsupported_binary_sensor_format"
+    }
+  ]
+}

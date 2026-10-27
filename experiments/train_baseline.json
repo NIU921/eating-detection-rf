@@ -1,0 +1,14 @@
+{
+  "n_estimators": 300,
+  "n_jobs": 8,
+  "inner_folds": 3,
+  "seed": 20261021,
+  "max_depths": [12, null],
+  "min_samples_leaf": [5, 20],
+  "thresholds": [0.35, 0.45, 0.55, 0.65],
+  "smooth_s": 60,
+  "start_persistence": 3,
+  "stop_persistence": 6,
+  "merge_gap_s": 30,
+  "min_event_s": 60
+}

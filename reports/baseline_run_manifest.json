@@ -1,0 +1,51 @@
+{
+  "dataset_sha256": "40e3f983748885b54e33b9cf613d7ab996ed4356d4f1be773be77eed1338476f",
+  "settings": {
+    "n_estimators": 300,
+    "n_jobs": 4,
+    "inner_folds": 3,
+    "seed": 20261021,
+    "max_depths": [
+      12,
+      null
+    ],
+    "min_samples_leaf": [
+      5,
+      20
+    ],
+    "thresholds": [
+      0.35,
+      0.45,
+      0.55,
+      0.65
+    ],
+    "smooth_s": 60,
+    "start_persistence": 3,
+    "stop_persistence": 6,
+    "merge_gap_s": 30,
+    "min_event_s": 60
+  },
+  "signal_config": {
+    "fs": 25,
+    "window_s": 10,
+    "stride_s": 5,
+    "boundary_s": 60,
+    "positive_overlap": 0.8,
+    "min_observed": 0.95,
+    "max_interpolation_ms": 200,
+    "lowpass_hz": 8.0,
+    "gravity_hz": 0.3,
+    "trim_s": 3,
+    "anchor": "start",
+    "seed": 20261021
+  },
+  "code_sha256": "86df7ec7636d82b2985493ff7a4852349b42c2cdb62198f41b44e7e75a920582",
+  "labels_sha256": "ee12debd3b69d16189de7406e42ac8d602814a36603af9c0c535fc98826dddee",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0"
+  }
+}
